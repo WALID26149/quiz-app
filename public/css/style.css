@@ -5,6 +5,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     background-color: #EAEAEA;
+    overflow-x: hidden;
 }
 * {
   font-family: "Verdana", cursive, sans-serif;
@@ -40,7 +41,7 @@ body {
   border-radius: 15px;
   padding: 20px;
   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
-  margin: 10% 10px;
+  margin: 9% 10px;
 }
 
 .score-section {
@@ -102,14 +103,32 @@ body {
   -webkit-backdrop-filter: blur(0px);
   transition: 0.3s;
 }
-
-/* navbar secction */
-nav {
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  padding:1% 13%;
+.active-button:active {
+  background-color: #3EC70B;
+  transition: 0.3s;
 }
-nav img{
-  height: 170px;
+
+/* copyRight p */
+.copy-right{
+  color: grey;
+  text-align: center;
+  padding: 10px 0 0 0;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+/* responsive size */
+@media (max-width: 550px) {
+  .app{
+    min-height: 560px;
+  }
+  .question-count{
+    font-size: 50px;
+  }
+  .question-text{
+    font-size: 50px;
+  }
+  .answer-section button{
+    font-size: 30px;
+  }
 }
