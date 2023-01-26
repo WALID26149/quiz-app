@@ -107,13 +107,21 @@ body {
   background-color: #3EC70B;
   transition: 0.3s;
 }
-
+/* logo img */
+.logo-img{
+  text-align: center;
+}
+.logo-img img{
+  height: 60px;
+  width: 61px;
+  margin: 15% 0 10px;
+}
 /* copyRight p */
-.copy-right{
+.copy-right p{
   color: grey;
   text-align: center;
   padding: 10px 0 0 0;
-  font-size: 17px;
+  font-size: 15px;
   margin-bottom: 25px;
 }
 
@@ -130,5 +138,12 @@ body {
   }
   .answer-section button{
     font-size: 30px;
+  }
+  .logo-img img{
+    height: 85px;
+    width: 86px;
+  }
+  .copy-right p{
+    font-size: 20px;
   }
 }

@@ -21,11 +21,15 @@ import questions from './questions';
        }
      };
 
+    //  get the date
+    const date = new Date().getFullYear();
+
     //  display in web 
      return (
-      <div>
-        <img src="https://cdn-icons-png.flaticon.com/512/14/14554.png" alt="img" />
-      </div>,
+    <div>
+      <nav className='logo-img'>
+        <img src="https://cdn-icons-png.flaticon.com/512/984/984196.png" alt="img" />
+      </nav>
        <div className='app'>
          {showScore ? (
            <div className='score-section'>
@@ -47,5 +51,9 @@ import questions from './questions';
            </>
          )}
        </div>
+       <footer className='copy-right'>
+         <p>Walid Allan CopyRight © {date}</p>
+       </footer>
+      </div>
      );
    }
