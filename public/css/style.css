@@ -126,24 +126,59 @@ body {
 }
 
 /* responsive size */
-@media (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 530px){
   .app{
-    min-height: 560px;
+    min-height: 75vh;
+    max-width: 750px;
   }
   .question-count{
+    font-size: 60px;
+    text-align: center;
+  }
+  .question-count span{
     font-size: 50px;
   }
   .question-text{
-    font-size: 50px;
+    font-size: 100px;
+    text-align: center;
   }
   .answer-section button{
-    font-size: 30px;
+    font-size: 66px;
+    margin: 20px;
+    padding: 67px 0;
   }
   .logo-img img{
     height: 85px;
     width: 86px;
   }
   .copy-right p{
-    font-size: 20px;
+    font-size: 30px;
   }
 }
+
+/* @media (max-width: 620px) {
+  .app {
+    max-width: 500px;
+    min-height: 336px;
+    background-color: #3C4048;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    margin: 9% 10px;
+  }
+  .question-count span{
+    font-size: 28px;
+  }
+  .question-count{
+    font-size: 28px;
+  }
+  .question-text{
+    font-size: 30px;
+  }
+  .answer-section button{
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px 15px;
+    background-color: inherit;
+  }
+} */

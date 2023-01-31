@@ -81,12 +81,12 @@ const questions = [
     ],
   },
   {
-    questionText: 'What is the correct JavaScript syntax to change the content of the <p id="demo">This is a demonstration.</p>',
+    questionText: 'What is the correct JavaScript syntax to select of the <p>',
     answerOptions: [
-      { answerText: 'document.getElementById("demo").innerHTML="Hello World"', isCorrect: false },
-      { answerText: '#demo.innerHTML="Hello World"', isCorrect: false },
-      { answerText: 'document.getElement("p").innerHTML="Hello World"', isCorrect: true },
-      { answerText: 'document.getElementByName("p").innerHTML="Hello World"', isCorrect: false },
+      { answerText: 'document.ElementId', isCorrect: false },
+      { answerText: '#demo.innerHTML', isCorrect: false },
+      { answerText: 'document.getElement("p")', isCorrect: true },
+      { answerText: 'document.("p")', isCorrect: false },
     ],
   },
   {
