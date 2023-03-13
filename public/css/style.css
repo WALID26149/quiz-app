@@ -133,9 +133,12 @@ html{
 
 /* responsive size */
 @media (min-width: 320px) and (max-width: 480px){
+  #root{
+    justify-content: unset;
+  }
   .app{
-    min-height: 75vh;
-    max-width: 750px;
+    min-height: 71%;
+    max-width: 85%;
   }
   .question-count{
     font-size: 60px;
